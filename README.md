@@ -1,7 +1,6 @@
 # Bayesian Dynamic Tensor Toolbox (BayDTT)
 
-   <img src="figs/logo4.png" width = "200" height = "200" alt="logo" align=center />
-
+   <img src="figs/logo2.png" width = "200" height = "200" alt="logo" align=center />
 
 BayDTT is an open-source library collecting state-of-art models and baselines for Bayesian Dynamic Tensor decomposition.
 
