@@ -1,7 +1,8 @@
 # Bayesian Dynamic Tensor Toolbox (BayDTT)
 
-   <img src="figs/logo2.png" width = "200" height = "200" alt="logo" align=center />
+   <div align=center><img src="figs/logo2.png" width = "200" height = "200" alt="logo" /></div>
 
+<br />
 BayDTT is an open-source library collecting state-of-art models and baselines for Bayesian Dynamic Tensor decomposition.
 
 We provide a neat code base to decompose a sparse tensor in probabilistic and dynamic ways, which cover two mainstream tasks now: **Streaming Tensor Decomposition, Temporal Tensor Decomposition**
