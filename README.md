@@ -2,7 +2,7 @@
 
    <div align=center><img src="figs/logo2.png" width = "200" height = "200" alt="logo" /></div>
 
-(the repo is still under construction, we will release the full code soon)
+(the repo is still under construction, some link and statistic could be wrong, we will release the full code soon)
 
 <br />
 BayTT is an open-source library collecting state-of-art models and baselines for Bayesian Tensor decomposition.
@@ -19,16 +19,16 @@ For each task, we made the leader borad evaluated on several classical datasets.
 **Compared models of this leaderboard.** ☑ means that their codes have already been included in this repo.
 
 ### Sparse Tensor Decomposition
-| Model name | Movie-lens                   | DBLP                                  | ACC                                                   | demo                                      | 
+| Model name | Movielens 10K                  | Movielens 1M                                     | ACC                                                   | DBLP                                     | 
 | ---------------- |---------------------------------------------------| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | 
-| 🥇 1st         | [BASS-Tucker](https://arxiv.org/abs/2310.06625)  | [BASS-Tucker](https://arxiv.org/abs/2310.06625)              | [BASS-Tucker](https://arxiv.org/abs/2310.06625)              | [BASS-Tucker](https://arxiv.org/abs/2310.06625)           |
-| 🥈 2nd               |   [SBDT](https://github.com/yuqinie98/PatchTST)    | [SBDT](https://github.com/yuqinie98/PatchTST)   | [SBDT](https://github.com/yuqinie98/PatchTST)   | [SBDT](https://github.com/yuqinie98/PatchTST)   |  [SBDT](https://github.com/yuqinie98/PatchTST) |
-| 🥉 3rd             |  [SFTL](https://github.com/yuqinie98/PatchTST)      | [SFTL](https://github.com/yuqinie98/PatchTST)           | [SFTL](https://github.com/yuqinie98/PatchTST)      | [SFTL](https://github.com/yuqinie98/PatchTST) |
+| 🥇 1st         | [NEST](https://arxiv.org/abs/2310.06625)  | [NEST](https://arxiv.org/abs/2310.06625)              | [NEST](https://arxiv.org/abs/2310.06625)              | [BASS-Tucker](https://arxiv.org/abs/2310.06625)           |
+| 🥈 2nd               |   [POND](https://github.com/yuqinie98/PatchTST)    | [POND](https://github.com/yuqinie98/PatchTST)   | [POND](https://github.com/yuqinie98/PatchTST)   | [POND](https://github.com/yuqinie98/PatchTST)   |  [POND](https://github.com/yuqinie98/PatchTST) |
+| 🥉 3rd             |  [SparseHGP](https://github.com/yuqinie98/PatchTST)      | [SparseHGP](https://github.com/yuqinie98/PatchTST)           | [SparseHGP](https://github.com/yuqinie98/PatchTST)      | [SparseHGP](https://github.com/yuqinie98/PatchTST) |
 
 
-  - [x] **BASS-Tucker** - Shikai Fang, Akil Narayan, Robert Kirby, and Shandian Zhe, “Bayesian Continuous-Time Tucker Decomposition ”, The 39 International Conference on Machine Learning  [[(ICML 2022)]](https://users.cs.utah.edu/~shikai/file/ICML2022-BCTT-fang) [[Code]](https://github.com/thuml/Time-Series-Library/blob/main/models/iTransformer.py).
-  - [x] **SBDT** - Shikai Fang, Zheng Wang, Zhimeng Pan, Ji Liu, and Shandian Zhe, “Streaming Bayesian Deep Tensor Factorization” [[ICML 2021]](https://openreview.net/pdf?id=Jbdc0vTOcol) [[Code]](https://github.com/thuml/Time-Series-Library/blob/main/models/PatchTST.py).
-  - [x] **SFTL** - Streaming Factor Trajectory Learning for Temporal Tensor Decomposition [[NeurIPS 2023]](https://openreview.net/pdf?id=ju_Uqw384Oq) [[Code]](https://github.com/thuml/Time-Series-Library/blob/main/models/TimesNet.py)
+  - [x] **NEST** - Conor Tillinghast and Shandian Zhe, “Nonparametric Decomposition of Sparse Tensors”, The Thirty-eighth International Conference on Machine Learning (ICML)[[(ICML 2021)]](https://users.cs.utah.edu/~shikai/file/ICML2022-BCTT-fang) [[Code]](https://github.com/thuml/Time-Series-Library/blob/main/models/iTransformer.py).
+  - [x] **POND** - Conor Tillinghast, Shikai Fang, Kai Zheng, and Shandian Zhe, “Probabilistic Neural-Kernel Tensor Decomposition”, IEEE International Conference on Data Mining (ICDM) [[ICDM 2020]](https://openreview.net/pdf?id=Jbdc0vTOcol) [[Code]](https://github.com/thuml/Time-Series-Library/blob/main/models/PatchTST.py).
+  - [x] **SparseHGP** - Conor Tillinghast, Zheng Wang, and Shandian Zhe, “Nonparametric Sparse Tensor Factorization with Hierarchical Gamma Processes”, The 39th International Conference on Machine Learning (ICML) [[ICML 2022]](https://openreview.net/pdf?id=ju_Uqw384Oq) [[Code]](https://github.com/thuml/Time-Series-Library/blob/main/models/TimesNet.py)
 
 ### Streaming Tensor Decomposition
 
@@ -46,7 +46,7 @@ For each task, we made the leader borad evaluated on several classical datasets.
   - [x] **SFTL** - Streaming Factor Trajectory Learning for Temporal Tensor Decomposition [[NeurIPS 2023]](https://openreview.net/pdf?id=ju_Uqw384Oq) [[Code]](https://github.com/thuml/Time-Series-Library/blob/main/models/TimesNet.py)
 
 
-## Temporal Tensor Decomposition
+### Temporal Tensor Decomposition
 
 | Model name | Movie-lens                   | DBLP                                  | ACC                                                   | demo                                      | 
 | ---------------- |---------------------------------------------------| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | 
